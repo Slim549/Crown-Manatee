@@ -1,0 +1,3662 @@
+[
+ {
+  "nodeId": "judicial-center",
+  "nodeName": "Manatee County Judicial Center",
+  "questions": [
+   {
+    "id": "judicial-center-easy-001",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] Manatee County Judicial Center question 1: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "B"
+   },
+   {
+    "id": "judicial-center-easy-002",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] Manatee County Judicial Center question 2: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "A"
+   },
+   {
+    "id": "judicial-center-easy-003",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] Manatee County Judicial Center question 3: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "D"
+   },
+   {
+    "id": "judicial-center-easy-004",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] Manatee County Judicial Center question 4: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "C"
+   },
+   {
+    "id": "judicial-center-easy-005",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] Manatee County Judicial Center question 5: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "B"
+   },
+   {
+    "id": "judicial-center-easy-006",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] Manatee County Judicial Center question 6: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "A"
+   },
+   {
+    "id": "judicial-center-easy-007",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] Manatee County Judicial Center question 7: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "D"
+   },
+   {
+    "id": "judicial-center-easy-008",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] Manatee County Judicial Center question 8: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "C"
+   },
+   {
+    "id": "judicial-center-easy-009",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] Manatee County Judicial Center question 9: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "B"
+   },
+   {
+    "id": "judicial-center-easy-010",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] Manatee County Judicial Center question 10: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "A"
+   },
+   {
+    "id": "judicial-center-medium-001",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] Manatee County Judicial Center question 11: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "D"
+   },
+   {
+    "id": "judicial-center-medium-002",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] Manatee County Judicial Center question 12: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "C"
+   },
+   {
+    "id": "judicial-center-medium-003",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] Manatee County Judicial Center question 13: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "B"
+   },
+   {
+    "id": "judicial-center-medium-004",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] Manatee County Judicial Center question 14: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "A"
+   },
+   {
+    "id": "judicial-center-medium-005",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] Manatee County Judicial Center question 15: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "D"
+   },
+   {
+    "id": "judicial-center-medium-006",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] Manatee County Judicial Center question 16: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "C"
+   },
+   {
+    "id": "judicial-center-medium-007",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] Manatee County Judicial Center question 17: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "B"
+   },
+   {
+    "id": "judicial-center-medium-008",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] Manatee County Judicial Center question 18: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "A"
+   },
+   {
+    "id": "judicial-center-medium-009",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] Manatee County Judicial Center question 19: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "D"
+   },
+   {
+    "id": "judicial-center-medium-010",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] Manatee County Judicial Center question 20: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "C"
+   },
+   {
+    "id": "judicial-center-hard-001",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] Manatee County Judicial Center question 21: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "B"
+   },
+   {
+    "id": "judicial-center-hard-002",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] Manatee County Judicial Center question 22: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "A"
+   },
+   {
+    "id": "judicial-center-hard-003",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] Manatee County Judicial Center question 23: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "D"
+   },
+   {
+    "id": "judicial-center-hard-004",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] Manatee County Judicial Center question 24: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "C"
+   },
+   {
+    "id": "judicial-center-hard-005",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] Manatee County Judicial Center question 25: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "B"
+   },
+   {
+    "id": "judicial-center-hard-006",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] Manatee County Judicial Center question 26: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "A"
+   },
+   {
+    "id": "judicial-center-hard-007",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] Manatee County Judicial Center question 27: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "D"
+   },
+   {
+    "id": "judicial-center-hard-008",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] Manatee County Judicial Center question 28: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "C"
+   },
+   {
+    "id": "judicial-center-hard-009",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] Manatee County Judicial Center question 29: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "B"
+   },
+   {
+    "id": "judicial-center-hard-010",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] Manatee County Judicial Center question 30: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "A"
+   }
+  ]
+ },
+ {
+  "nodeId": "elections",
+  "nodeName": "Manatee County Supervisor of Elections Office",
+  "questions": [
+   {
+    "id": "elections-easy-001",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] Manatee County Supervisor of Elections Office question 1: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "C"
+   },
+   {
+    "id": "elections-easy-002",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] Manatee County Supervisor of Elections Office question 2: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "B"
+   },
+   {
+    "id": "elections-easy-003",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] Manatee County Supervisor of Elections Office question 3: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "A"
+   },
+   {
+    "id": "elections-easy-004",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] Manatee County Supervisor of Elections Office question 4: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "D"
+   },
+   {
+    "id": "elections-easy-005",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] Manatee County Supervisor of Elections Office question 5: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "C"
+   },
+   {
+    "id": "elections-easy-006",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] Manatee County Supervisor of Elections Office question 6: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "B"
+   },
+   {
+    "id": "elections-easy-007",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] Manatee County Supervisor of Elections Office question 7: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "A"
+   },
+   {
+    "id": "elections-easy-008",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] Manatee County Supervisor of Elections Office question 8: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "D"
+   },
+   {
+    "id": "elections-easy-009",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] Manatee County Supervisor of Elections Office question 9: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "C"
+   },
+   {
+    "id": "elections-easy-010",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] Manatee County Supervisor of Elections Office question 10: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "B"
+   },
+   {
+    "id": "elections-medium-001",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] Manatee County Supervisor of Elections Office question 11: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "A"
+   },
+   {
+    "id": "elections-medium-002",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] Manatee County Supervisor of Elections Office question 12: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "D"
+   },
+   {
+    "id": "elections-medium-003",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] Manatee County Supervisor of Elections Office question 13: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "C"
+   },
+   {
+    "id": "elections-medium-004",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] Manatee County Supervisor of Elections Office question 14: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "B"
+   },
+   {
+    "id": "elections-medium-005",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] Manatee County Supervisor of Elections Office question 15: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "A"
+   },
+   {
+    "id": "elections-medium-006",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] Manatee County Supervisor of Elections Office question 16: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "D"
+   },
+   {
+    "id": "elections-medium-007",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] Manatee County Supervisor of Elections Office question 17: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "C"
+   },
+   {
+    "id": "elections-medium-008",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] Manatee County Supervisor of Elections Office question 18: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "B"
+   },
+   {
+    "id": "elections-medium-009",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] Manatee County Supervisor of Elections Office question 19: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "A"
+   },
+   {
+    "id": "elections-medium-010",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] Manatee County Supervisor of Elections Office question 20: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "D"
+   },
+   {
+    "id": "elections-hard-001",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] Manatee County Supervisor of Elections Office question 21: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "C"
+   },
+   {
+    "id": "elections-hard-002",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] Manatee County Supervisor of Elections Office question 22: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "B"
+   },
+   {
+    "id": "elections-hard-003",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] Manatee County Supervisor of Elections Office question 23: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "A"
+   },
+   {
+    "id": "elections-hard-004",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] Manatee County Supervisor of Elections Office question 24: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "D"
+   },
+   {
+    "id": "elections-hard-005",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] Manatee County Supervisor of Elections Office question 25: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "C"
+   },
+   {
+    "id": "elections-hard-006",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] Manatee County Supervisor of Elections Office question 26: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "B"
+   },
+   {
+    "id": "elections-hard-007",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] Manatee County Supervisor of Elections Office question 27: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "A"
+   },
+   {
+    "id": "elections-hard-008",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] Manatee County Supervisor of Elections Office question 28: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "D"
+   },
+   {
+    "id": "elections-hard-009",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] Manatee County Supervisor of Elections Office question 29: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "C"
+   },
+   {
+    "id": "elections-hard-010",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] Manatee County Supervisor of Elections Office question 30: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "B"
+   }
+  ]
+ },
+ {
+  "nodeId": "gt-bray",
+  "nodeName": "G.T. Bray Park and Recreation Center",
+  "questions": [
+   {
+    "id": "gt-bray-easy-001",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] G.T. Bray Park and Recreation Center question 1: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "D"
+   },
+   {
+    "id": "gt-bray-easy-002",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] G.T. Bray Park and Recreation Center question 2: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "C"
+   },
+   {
+    "id": "gt-bray-easy-003",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] G.T. Bray Park and Recreation Center question 3: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "B"
+   },
+   {
+    "id": "gt-bray-easy-004",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] G.T. Bray Park and Recreation Center question 4: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "A"
+   },
+   {
+    "id": "gt-bray-easy-005",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] G.T. Bray Park and Recreation Center question 5: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "D"
+   },
+   {
+    "id": "gt-bray-easy-006",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] G.T. Bray Park and Recreation Center question 6: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "C"
+   },
+   {
+    "id": "gt-bray-easy-007",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] G.T. Bray Park and Recreation Center question 7: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "B"
+   },
+   {
+    "id": "gt-bray-easy-008",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] G.T. Bray Park and Recreation Center question 8: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "A"
+   },
+   {
+    "id": "gt-bray-easy-009",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] G.T. Bray Park and Recreation Center question 9: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "D"
+   },
+   {
+    "id": "gt-bray-easy-010",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] G.T. Bray Park and Recreation Center question 10: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "C"
+   },
+   {
+    "id": "gt-bray-medium-001",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] G.T. Bray Park and Recreation Center question 11: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "B"
+   },
+   {
+    "id": "gt-bray-medium-002",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] G.T. Bray Park and Recreation Center question 12: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "A"
+   },
+   {
+    "id": "gt-bray-medium-003",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] G.T. Bray Park and Recreation Center question 13: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "D"
+   },
+   {
+    "id": "gt-bray-medium-004",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] G.T. Bray Park and Recreation Center question 14: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "C"
+   },
+   {
+    "id": "gt-bray-medium-005",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] G.T. Bray Park and Recreation Center question 15: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "B"
+   },
+   {
+    "id": "gt-bray-medium-006",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] G.T. Bray Park and Recreation Center question 16: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "A"
+   },
+   {
+    "id": "gt-bray-medium-007",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] G.T. Bray Park and Recreation Center question 17: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "D"
+   },
+   {
+    "id": "gt-bray-medium-008",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] G.T. Bray Park and Recreation Center question 18: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "C"
+   },
+   {
+    "id": "gt-bray-medium-009",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] G.T. Bray Park and Recreation Center question 19: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "B"
+   },
+   {
+    "id": "gt-bray-medium-010",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] G.T. Bray Park and Recreation Center question 20: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "A"
+   },
+   {
+    "id": "gt-bray-hard-001",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] G.T. Bray Park and Recreation Center question 21: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "D"
+   },
+   {
+    "id": "gt-bray-hard-002",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] G.T. Bray Park and Recreation Center question 22: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "C"
+   },
+   {
+    "id": "gt-bray-hard-003",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] G.T. Bray Park and Recreation Center question 23: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "B"
+   },
+   {
+    "id": "gt-bray-hard-004",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] G.T. Bray Park and Recreation Center question 24: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "A"
+   },
+   {
+    "id": "gt-bray-hard-005",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] G.T. Bray Park and Recreation Center question 25: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "D"
+   },
+   {
+    "id": "gt-bray-hard-006",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] G.T. Bray Park and Recreation Center question 26: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "C"
+   },
+   {
+    "id": "gt-bray-hard-007",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] G.T. Bray Park and Recreation Center question 27: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "B"
+   },
+   {
+    "id": "gt-bray-hard-008",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] G.T. Bray Park and Recreation Center question 28: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "A"
+   },
+   {
+    "id": "gt-bray-hard-009",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] G.T. Bray Park and Recreation Center question 29: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "D"
+   },
+   {
+    "id": "gt-bray-hard-010",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] G.T. Bray Park and Recreation Center question 30: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "C"
+   }
+  ]
+ },
+ {
+  "nodeId": "school-district",
+  "nodeName": "School District of Manatee County Administration Building",
+  "questions": [
+   {
+    "id": "school-district-easy-001",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] School District of Manatee County Administration Building question 1: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "A"
+   },
+   {
+    "id": "school-district-easy-002",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] School District of Manatee County Administration Building question 2: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "D"
+   },
+   {
+    "id": "school-district-easy-003",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] School District of Manatee County Administration Building question 3: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "C"
+   },
+   {
+    "id": "school-district-easy-004",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] School District of Manatee County Administration Building question 4: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "B"
+   },
+   {
+    "id": "school-district-easy-005",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] School District of Manatee County Administration Building question 5: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "A"
+   },
+   {
+    "id": "school-district-easy-006",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] School District of Manatee County Administration Building question 6: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "D"
+   },
+   {
+    "id": "school-district-easy-007",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] School District of Manatee County Administration Building question 7: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "C"
+   },
+   {
+    "id": "school-district-easy-008",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] School District of Manatee County Administration Building question 8: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "B"
+   },
+   {
+    "id": "school-district-easy-009",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] School District of Manatee County Administration Building question 9: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "A"
+   },
+   {
+    "id": "school-district-easy-010",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] School District of Manatee County Administration Building question 10: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "D"
+   },
+   {
+    "id": "school-district-medium-001",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] School District of Manatee County Administration Building question 11: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "C"
+   },
+   {
+    "id": "school-district-medium-002",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] School District of Manatee County Administration Building question 12: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "B"
+   },
+   {
+    "id": "school-district-medium-003",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] School District of Manatee County Administration Building question 13: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "A"
+   },
+   {
+    "id": "school-district-medium-004",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] School District of Manatee County Administration Building question 14: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "D"
+   },
+   {
+    "id": "school-district-medium-005",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] School District of Manatee County Administration Building question 15: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "C"
+   },
+   {
+    "id": "school-district-medium-006",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] School District of Manatee County Administration Building question 16: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "B"
+   },
+   {
+    "id": "school-district-medium-007",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] School District of Manatee County Administration Building question 17: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "A"
+   },
+   {
+    "id": "school-district-medium-008",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] School District of Manatee County Administration Building question 18: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "D"
+   },
+   {
+    "id": "school-district-medium-009",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] School District of Manatee County Administration Building question 19: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "C"
+   },
+   {
+    "id": "school-district-medium-010",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] School District of Manatee County Administration Building question 20: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "B"
+   },
+   {
+    "id": "school-district-hard-001",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] School District of Manatee County Administration Building question 21: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "A"
+   },
+   {
+    "id": "school-district-hard-002",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] School District of Manatee County Administration Building question 22: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "D"
+   },
+   {
+    "id": "school-district-hard-003",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] School District of Manatee County Administration Building question 23: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "C"
+   },
+   {
+    "id": "school-district-hard-004",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] School District of Manatee County Administration Building question 24: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "B"
+   },
+   {
+    "id": "school-district-hard-005",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] School District of Manatee County Administration Building question 25: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "A"
+   },
+   {
+    "id": "school-district-hard-006",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] School District of Manatee County Administration Building question 26: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "D"
+   },
+   {
+    "id": "school-district-hard-007",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] School District of Manatee County Administration Building question 27: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "C"
+   },
+   {
+    "id": "school-district-hard-008",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] School District of Manatee County Administration Building question 28: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "B"
+   },
+   {
+    "id": "school-district-hard-009",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] School District of Manatee County Administration Building question 29: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "A"
+   },
+   {
+    "id": "school-district-hard-010",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] School District of Manatee County Administration Building question 30: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "D"
+   }
+  ]
+ },
+ {
+  "nodeId": "sheriff",
+  "nodeName": "Manatee County Sheriff's Office",
+  "questions": [
+   {
+    "id": "sheriff-easy-001",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] Manatee County Sheriff's Office question 1: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "B"
+   },
+   {
+    "id": "sheriff-easy-002",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] Manatee County Sheriff's Office question 2: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "A"
+   },
+   {
+    "id": "sheriff-easy-003",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] Manatee County Sheriff's Office question 3: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "D"
+   },
+   {
+    "id": "sheriff-easy-004",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] Manatee County Sheriff's Office question 4: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "C"
+   },
+   {
+    "id": "sheriff-easy-005",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] Manatee County Sheriff's Office question 5: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "B"
+   },
+   {
+    "id": "sheriff-easy-006",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] Manatee County Sheriff's Office question 6: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "A"
+   },
+   {
+    "id": "sheriff-easy-007",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] Manatee County Sheriff's Office question 7: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "D"
+   },
+   {
+    "id": "sheriff-easy-008",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] Manatee County Sheriff's Office question 8: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "C"
+   },
+   {
+    "id": "sheriff-easy-009",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] Manatee County Sheriff's Office question 9: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "B"
+   },
+   {
+    "id": "sheriff-easy-010",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] Manatee County Sheriff's Office question 10: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "A"
+   },
+   {
+    "id": "sheriff-medium-001",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] Manatee County Sheriff's Office question 11: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "D"
+   },
+   {
+    "id": "sheriff-medium-002",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] Manatee County Sheriff's Office question 12: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "C"
+   },
+   {
+    "id": "sheriff-medium-003",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] Manatee County Sheriff's Office question 13: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "B"
+   },
+   {
+    "id": "sheriff-medium-004",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] Manatee County Sheriff's Office question 14: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "A"
+   },
+   {
+    "id": "sheriff-medium-005",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] Manatee County Sheriff's Office question 15: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "D"
+   },
+   {
+    "id": "sheriff-medium-006",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] Manatee County Sheriff's Office question 16: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "C"
+   },
+   {
+    "id": "sheriff-medium-007",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] Manatee County Sheriff's Office question 17: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "B"
+   },
+   {
+    "id": "sheriff-medium-008",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] Manatee County Sheriff's Office question 18: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "A"
+   },
+   {
+    "id": "sheriff-medium-009",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] Manatee County Sheriff's Office question 19: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "D"
+   },
+   {
+    "id": "sheriff-medium-010",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] Manatee County Sheriff's Office question 20: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "C"
+   },
+   {
+    "id": "sheriff-hard-001",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] Manatee County Sheriff's Office question 21: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "B"
+   },
+   {
+    "id": "sheriff-hard-002",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] Manatee County Sheriff's Office question 22: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "A"
+   },
+   {
+    "id": "sheriff-hard-003",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] Manatee County Sheriff's Office question 23: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "D"
+   },
+   {
+    "id": "sheriff-hard-004",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] Manatee County Sheriff's Office question 24: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "C"
+   },
+   {
+    "id": "sheriff-hard-005",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] Manatee County Sheriff's Office question 25: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "B"
+   },
+   {
+    "id": "sheriff-hard-006",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] Manatee County Sheriff's Office question 26: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "A"
+   },
+   {
+    "id": "sheriff-hard-007",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] Manatee County Sheriff's Office question 27: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "D"
+   },
+   {
+    "id": "sheriff-hard-008",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] Manatee County Sheriff's Office question 28: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "C"
+   },
+   {
+    "id": "sheriff-hard-009",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] Manatee County Sheriff's Office question 29: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "B"
+   },
+   {
+    "id": "sheriff-hard-010",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] Manatee County Sheriff's Office question 30: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "A"
+   }
+  ]
+ },
+ {
+  "nodeId": "county-admin",
+  "nodeName": "Manatee County Administration Building",
+  "questions": [
+   {
+    "id": "county-admin-easy-001",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] Manatee County Administration Building question 1: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "C"
+   },
+   {
+    "id": "county-admin-easy-002",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] Manatee County Administration Building question 2: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "B"
+   },
+   {
+    "id": "county-admin-easy-003",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] Manatee County Administration Building question 3: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "A"
+   },
+   {
+    "id": "county-admin-easy-004",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] Manatee County Administration Building question 4: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "D"
+   },
+   {
+    "id": "county-admin-easy-005",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] Manatee County Administration Building question 5: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "C"
+   },
+   {
+    "id": "county-admin-easy-006",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] Manatee County Administration Building question 6: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "B"
+   },
+   {
+    "id": "county-admin-easy-007",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] Manatee County Administration Building question 7: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "A"
+   },
+   {
+    "id": "county-admin-easy-008",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] Manatee County Administration Building question 8: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "D"
+   },
+   {
+    "id": "county-admin-easy-009",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] Manatee County Administration Building question 9: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "C"
+   },
+   {
+    "id": "county-admin-easy-010",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] Manatee County Administration Building question 10: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "B"
+   },
+   {
+    "id": "county-admin-medium-001",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] Manatee County Administration Building question 11: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "A"
+   },
+   {
+    "id": "county-admin-medium-002",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] Manatee County Administration Building question 12: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "D"
+   },
+   {
+    "id": "county-admin-medium-003",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] Manatee County Administration Building question 13: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "C"
+   },
+   {
+    "id": "county-admin-medium-004",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] Manatee County Administration Building question 14: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "B"
+   },
+   {
+    "id": "county-admin-medium-005",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] Manatee County Administration Building question 15: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "A"
+   },
+   {
+    "id": "county-admin-medium-006",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] Manatee County Administration Building question 16: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "D"
+   },
+   {
+    "id": "county-admin-medium-007",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] Manatee County Administration Building question 17: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "C"
+   },
+   {
+    "id": "county-admin-medium-008",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] Manatee County Administration Building question 18: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "B"
+   },
+   {
+    "id": "county-admin-medium-009",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] Manatee County Administration Building question 19: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "A"
+   },
+   {
+    "id": "county-admin-medium-010",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] Manatee County Administration Building question 20: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "D"
+   },
+   {
+    "id": "county-admin-hard-001",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] Manatee County Administration Building question 21: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "C"
+   },
+   {
+    "id": "county-admin-hard-002",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] Manatee County Administration Building question 22: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "B"
+   },
+   {
+    "id": "county-admin-hard-003",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] Manatee County Administration Building question 23: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "A"
+   },
+   {
+    "id": "county-admin-hard-004",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] Manatee County Administration Building question 24: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "D"
+   },
+   {
+    "id": "county-admin-hard-005",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] Manatee County Administration Building question 25: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "C"
+   },
+   {
+    "id": "county-admin-hard-006",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] Manatee County Administration Building question 26: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "B"
+   },
+   {
+    "id": "county-admin-hard-007",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] Manatee County Administration Building question 27: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "A"
+   },
+   {
+    "id": "county-admin-hard-008",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] Manatee County Administration Building question 28: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "D"
+   },
+   {
+    "id": "county-admin-hard-009",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] Manatee County Administration Building question 29: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "C"
+   },
+   {
+    "id": "county-admin-hard-010",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] Manatee County Administration Building question 30: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "B"
+   }
+  ]
+ },
+ {
+  "nodeId": "library",
+  "nodeName": "Manatee County Central Library",
+  "questions": [
+   {
+    "id": "library-easy-001",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] Manatee County Central Library question 1: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "D"
+   },
+   {
+    "id": "library-easy-002",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] Manatee County Central Library question 2: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "C"
+   },
+   {
+    "id": "library-easy-003",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] Manatee County Central Library question 3: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "B"
+   },
+   {
+    "id": "library-easy-004",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] Manatee County Central Library question 4: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "A"
+   },
+   {
+    "id": "library-easy-005",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] Manatee County Central Library question 5: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "D"
+   },
+   {
+    "id": "library-easy-006",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] Manatee County Central Library question 6: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "C"
+   },
+   {
+    "id": "library-easy-007",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] Manatee County Central Library question 7: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "B"
+   },
+   {
+    "id": "library-easy-008",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] Manatee County Central Library question 8: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "A"
+   },
+   {
+    "id": "library-easy-009",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] Manatee County Central Library question 9: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "D"
+   },
+   {
+    "id": "library-easy-010",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] Manatee County Central Library question 10: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "C"
+   },
+   {
+    "id": "library-medium-001",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] Manatee County Central Library question 11: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "B"
+   },
+   {
+    "id": "library-medium-002",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] Manatee County Central Library question 12: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "A"
+   },
+   {
+    "id": "library-medium-003",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] Manatee County Central Library question 13: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "D"
+   },
+   {
+    "id": "library-medium-004",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] Manatee County Central Library question 14: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "C"
+   },
+   {
+    "id": "library-medium-005",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] Manatee County Central Library question 15: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "B"
+   },
+   {
+    "id": "library-medium-006",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] Manatee County Central Library question 16: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "A"
+   },
+   {
+    "id": "library-medium-007",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] Manatee County Central Library question 17: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "D"
+   },
+   {
+    "id": "library-medium-008",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] Manatee County Central Library question 18: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "C"
+   },
+   {
+    "id": "library-medium-009",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] Manatee County Central Library question 19: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "B"
+   },
+   {
+    "id": "library-medium-010",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] Manatee County Central Library question 20: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "A"
+   },
+   {
+    "id": "library-hard-001",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] Manatee County Central Library question 21: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "D"
+   },
+   {
+    "id": "library-hard-002",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] Manatee County Central Library question 22: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "C"
+   },
+   {
+    "id": "library-hard-003",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] Manatee County Central Library question 23: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "B"
+   },
+   {
+    "id": "library-hard-004",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] Manatee County Central Library question 24: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "A"
+   },
+   {
+    "id": "library-hard-005",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] Manatee County Central Library question 25: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "D"
+   },
+   {
+    "id": "library-hard-006",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] Manatee County Central Library question 26: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "C"
+   },
+   {
+    "id": "library-hard-007",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] Manatee County Central Library question 27: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "B"
+   },
+   {
+    "id": "library-hard-008",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] Manatee County Central Library question 28: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "A"
+   },
+   {
+    "id": "library-hard-009",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] Manatee County Central Library question 29: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "D"
+   },
+   {
+    "id": "library-hard-010",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] Manatee County Central Library question 30: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "C"
+   }
+  ]
+ },
+ {
+  "nodeId": "property-appraiser",
+  "nodeName": "Manatee County Property Appraiser's Office",
+  "questions": [
+   {
+    "id": "property-appraiser-easy-001",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] Manatee County Property Appraiser's Office question 1: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "A"
+   },
+   {
+    "id": "property-appraiser-easy-002",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] Manatee County Property Appraiser's Office question 2: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "D"
+   },
+   {
+    "id": "property-appraiser-easy-003",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] Manatee County Property Appraiser's Office question 3: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "C"
+   },
+   {
+    "id": "property-appraiser-easy-004",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] Manatee County Property Appraiser's Office question 4: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "B"
+   },
+   {
+    "id": "property-appraiser-easy-005",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] Manatee County Property Appraiser's Office question 5: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "A"
+   },
+   {
+    "id": "property-appraiser-easy-006",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] Manatee County Property Appraiser's Office question 6: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "D"
+   },
+   {
+    "id": "property-appraiser-easy-007",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] Manatee County Property Appraiser's Office question 7: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "C"
+   },
+   {
+    "id": "property-appraiser-easy-008",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] Manatee County Property Appraiser's Office question 8: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "B"
+   },
+   {
+    "id": "property-appraiser-easy-009",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] Manatee County Property Appraiser's Office question 9: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "A"
+   },
+   {
+    "id": "property-appraiser-easy-010",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] Manatee County Property Appraiser's Office question 10: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "D"
+   },
+   {
+    "id": "property-appraiser-medium-001",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] Manatee County Property Appraiser's Office question 11: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "C"
+   },
+   {
+    "id": "property-appraiser-medium-002",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] Manatee County Property Appraiser's Office question 12: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "B"
+   },
+   {
+    "id": "property-appraiser-medium-003",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] Manatee County Property Appraiser's Office question 13: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "A"
+   },
+   {
+    "id": "property-appraiser-medium-004",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] Manatee County Property Appraiser's Office question 14: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "D"
+   },
+   {
+    "id": "property-appraiser-medium-005",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] Manatee County Property Appraiser's Office question 15: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "C"
+   },
+   {
+    "id": "property-appraiser-medium-006",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] Manatee County Property Appraiser's Office question 16: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "B"
+   },
+   {
+    "id": "property-appraiser-medium-007",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] Manatee County Property Appraiser's Office question 17: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "A"
+   },
+   {
+    "id": "property-appraiser-medium-008",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] Manatee County Property Appraiser's Office question 18: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "D"
+   },
+   {
+    "id": "property-appraiser-medium-009",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] Manatee County Property Appraiser's Office question 19: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "C"
+   },
+   {
+    "id": "property-appraiser-medium-010",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] Manatee County Property Appraiser's Office question 20: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "B"
+   },
+   {
+    "id": "property-appraiser-hard-001",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] Manatee County Property Appraiser's Office question 21: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "A"
+   },
+   {
+    "id": "property-appraiser-hard-002",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] Manatee County Property Appraiser's Office question 22: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "D"
+   },
+   {
+    "id": "property-appraiser-hard-003",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] Manatee County Property Appraiser's Office question 23: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "C"
+   },
+   {
+    "id": "property-appraiser-hard-004",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] Manatee County Property Appraiser's Office question 24: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "B"
+   },
+   {
+    "id": "property-appraiser-hard-005",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] Manatee County Property Appraiser's Office question 25: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "A"
+   },
+   {
+    "id": "property-appraiser-hard-006",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] Manatee County Property Appraiser's Office question 26: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "D"
+   },
+   {
+    "id": "property-appraiser-hard-007",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] Manatee County Property Appraiser's Office question 27: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "C"
+   },
+   {
+    "id": "property-appraiser-hard-008",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] Manatee County Property Appraiser's Office question 28: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "B"
+   },
+   {
+    "id": "property-appraiser-hard-009",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] Manatee County Property Appraiser's Office question 29: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "A"
+   },
+   {
+    "id": "property-appraiser-hard-010",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] Manatee County Property Appraiser's Office question 30: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "D"
+   }
+  ]
+ },
+ {
+  "nodeId": "animal-welfare",
+  "nodeName": "Manatee County Animal Welfare",
+  "questions": [
+   {
+    "id": "animal-welfare-easy-001",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] Manatee County Animal Welfare question 1: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "B"
+   },
+   {
+    "id": "animal-welfare-easy-002",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] Manatee County Animal Welfare question 2: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "A"
+   },
+   {
+    "id": "animal-welfare-easy-003",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] Manatee County Animal Welfare question 3: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "D"
+   },
+   {
+    "id": "animal-welfare-easy-004",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] Manatee County Animal Welfare question 4: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "C"
+   },
+   {
+    "id": "animal-welfare-easy-005",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] Manatee County Animal Welfare question 5: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "B"
+   },
+   {
+    "id": "animal-welfare-easy-006",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] Manatee County Animal Welfare question 6: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "A"
+   },
+   {
+    "id": "animal-welfare-easy-007",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] Manatee County Animal Welfare question 7: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "D"
+   },
+   {
+    "id": "animal-welfare-easy-008",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] Manatee County Animal Welfare question 8: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "C"
+   },
+   {
+    "id": "animal-welfare-easy-009",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] Manatee County Animal Welfare question 9: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "B"
+   },
+   {
+    "id": "animal-welfare-easy-010",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] Manatee County Animal Welfare question 10: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "A"
+   },
+   {
+    "id": "animal-welfare-medium-001",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] Manatee County Animal Welfare question 11: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "D"
+   },
+   {
+    "id": "animal-welfare-medium-002",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] Manatee County Animal Welfare question 12: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "C"
+   },
+   {
+    "id": "animal-welfare-medium-003",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] Manatee County Animal Welfare question 13: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "B"
+   },
+   {
+    "id": "animal-welfare-medium-004",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] Manatee County Animal Welfare question 14: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "A"
+   },
+   {
+    "id": "animal-welfare-medium-005",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] Manatee County Animal Welfare question 15: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "D"
+   },
+   {
+    "id": "animal-welfare-medium-006",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] Manatee County Animal Welfare question 16: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "C"
+   },
+   {
+    "id": "animal-welfare-medium-007",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] Manatee County Animal Welfare question 17: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "B"
+   },
+   {
+    "id": "animal-welfare-medium-008",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] Manatee County Animal Welfare question 18: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "A"
+   },
+   {
+    "id": "animal-welfare-medium-009",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] Manatee County Animal Welfare question 19: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "D"
+   },
+   {
+    "id": "animal-welfare-medium-010",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] Manatee County Animal Welfare question 20: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "C"
+   },
+   {
+    "id": "animal-welfare-hard-001",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] Manatee County Animal Welfare question 21: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "B"
+   },
+   {
+    "id": "animal-welfare-hard-002",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] Manatee County Animal Welfare question 22: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "A"
+   },
+   {
+    "id": "animal-welfare-hard-003",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] Manatee County Animal Welfare question 23: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "D"
+   },
+   {
+    "id": "animal-welfare-hard-004",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] Manatee County Animal Welfare question 24: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "C"
+   },
+   {
+    "id": "animal-welfare-hard-005",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] Manatee County Animal Welfare question 25: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "B"
+   },
+   {
+    "id": "animal-welfare-hard-006",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] Manatee County Animal Welfare question 26: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "A"
+   },
+   {
+    "id": "animal-welfare-hard-007",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] Manatee County Animal Welfare question 27: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "D"
+   },
+   {
+    "id": "animal-welfare-hard-008",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] Manatee County Animal Welfare question 28: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "C"
+   },
+   {
+    "id": "animal-welfare-hard-009",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] Manatee County Animal Welfare question 29: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "B"
+   },
+   {
+    "id": "animal-welfare-hard-010",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] Manatee County Animal Welfare question 30: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "A"
+   }
+  ]
+ },
+ {
+  "nodeId": "public-works",
+  "nodeName": "Manatee County Public Works / Stormwater Operations",
+  "questions": [
+   {
+    "id": "public-works-easy-001",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] Manatee County Public Works / Stormwater Operations question 1: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "C"
+   },
+   {
+    "id": "public-works-easy-002",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] Manatee County Public Works / Stormwater Operations question 2: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "B"
+   },
+   {
+    "id": "public-works-easy-003",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] Manatee County Public Works / Stormwater Operations question 3: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "A"
+   },
+   {
+    "id": "public-works-easy-004",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] Manatee County Public Works / Stormwater Operations question 4: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "D"
+   },
+   {
+    "id": "public-works-easy-005",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] Manatee County Public Works / Stormwater Operations question 5: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "C"
+   },
+   {
+    "id": "public-works-easy-006",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] Manatee County Public Works / Stormwater Operations question 6: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "B"
+   },
+   {
+    "id": "public-works-easy-007",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] Manatee County Public Works / Stormwater Operations question 7: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "A"
+   },
+   {
+    "id": "public-works-easy-008",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] Manatee County Public Works / Stormwater Operations question 8: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "D"
+   },
+   {
+    "id": "public-works-easy-009",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] Manatee County Public Works / Stormwater Operations question 9: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "C"
+   },
+   {
+    "id": "public-works-easy-010",
+    "difficulty": "easy",
+    "prompt": "[PLACEHOLDER] Manatee County Public Works / Stormwater Operations question 10: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "B"
+   },
+   {
+    "id": "public-works-medium-001",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] Manatee County Public Works / Stormwater Operations question 11: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "A"
+   },
+   {
+    "id": "public-works-medium-002",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] Manatee County Public Works / Stormwater Operations question 12: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "D"
+   },
+   {
+    "id": "public-works-medium-003",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] Manatee County Public Works / Stormwater Operations question 13: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "C"
+   },
+   {
+    "id": "public-works-medium-004",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] Manatee County Public Works / Stormwater Operations question 14: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "B"
+   },
+   {
+    "id": "public-works-medium-005",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] Manatee County Public Works / Stormwater Operations question 15: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "A"
+   },
+   {
+    "id": "public-works-medium-006",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] Manatee County Public Works / Stormwater Operations question 16: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "D"
+   },
+   {
+    "id": "public-works-medium-007",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] Manatee County Public Works / Stormwater Operations question 17: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "C"
+   },
+   {
+    "id": "public-works-medium-008",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] Manatee County Public Works / Stormwater Operations question 18: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "B"
+   },
+   {
+    "id": "public-works-medium-009",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] Manatee County Public Works / Stormwater Operations question 19: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "A"
+   },
+   {
+    "id": "public-works-medium-010",
+    "difficulty": "medium",
+    "prompt": "[PLACEHOLDER] Manatee County Public Works / Stormwater Operations question 20: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "D"
+   },
+   {
+    "id": "public-works-hard-001",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] Manatee County Public Works / Stormwater Operations question 21: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "C"
+   },
+   {
+    "id": "public-works-hard-002",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] Manatee County Public Works / Stormwater Operations question 22: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "B"
+   },
+   {
+    "id": "public-works-hard-003",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] Manatee County Public Works / Stormwater Operations question 23: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "A"
+   },
+   {
+    "id": "public-works-hard-004",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] Manatee County Public Works / Stormwater Operations question 24: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "D"
+   },
+   {
+    "id": "public-works-hard-005",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] Manatee County Public Works / Stormwater Operations question 25: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "C"
+   },
+   {
+    "id": "public-works-hard-006",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] Manatee County Public Works / Stormwater Operations question 26: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "B"
+   },
+   {
+    "id": "public-works-hard-007",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] Manatee County Public Works / Stormwater Operations question 27: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "A"
+   },
+   {
+    "id": "public-works-hard-008",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] Manatee County Public Works / Stormwater Operations question 28: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "D"
+   },
+   {
+    "id": "public-works-hard-009",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] Manatee County Public Works / Stormwater Operations question 29: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "C"
+   },
+   {
+    "id": "public-works-hard-010",
+    "difficulty": "hard",
+    "prompt": "[PLACEHOLDER] Manatee County Public Works / Stormwater Operations question 30: any answer works while testing. Replace data/questions.sample.json with your real bank.",
+    "choices": {
+     "A": "Placeholder option A",
+     "B": "Placeholder option B",
+     "C": "Placeholder option C",
+     "D": "Placeholder option D"
+    },
+    "correctAnswer": "B"
+   }
+  ]
+ }
+]

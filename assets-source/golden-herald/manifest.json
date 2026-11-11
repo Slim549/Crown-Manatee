@@ -1,0 +1,184 @@
+{
+  "source_canvas_px": {
+    "width": 2000,
+    "height": 1545
+  },
+  "assets": [
+    {
+      "file": "01_courthouse_building_cluster.png",
+      "name": "courthouse building cluster",
+      "original_position_px": {
+        "x": 114,
+        "y": 108,
+        "width": 633,
+        "height": 347
+      },
+      "crop_with_padding_px": {
+        "x": 102,
+        "y": 96,
+        "width": 657,
+        "height": 371
+      }
+    },
+    {
+      "file": "02_tennis_and_recreation_facility.png",
+      "name": "tennis and recreation facility",
+      "original_position_px": {
+        "x": 1450,
+        "y": 163,
+        "width": 494,
+        "height": 294
+      },
+      "crop_with_padding_px": {
+        "x": 1438,
+        "y": 151,
+        "width": 518,
+        "height": 318
+      }
+    },
+    {
+      "file": "03_supervisor_of_elections_building.png",
+      "name": "supervisor of elections building",
+      "original_position_px": {
+        "x": 835,
+        "y": 286,
+        "width": 544,
+        "height": 137
+      },
+      "crop_with_padding_px": {
+        "x": 823,
+        "y": 274,
+        "width": 568,
+        "height": 161
+      }
+    },
+    {
+      "file": "04_sheriffs_office_operations_center.png",
+      "name": "sheriffs office operations center",
+      "original_position_px": {
+        "x": 696,
+        "y": 572,
+        "width": 453,
+        "height": 211
+      },
+      "crop_with_padding_px": {
+        "x": 684,
+        "y": 560,
+        "width": 477,
+        "height": 235
+      }
+    },
+    {
+      "file": "05_modern_civic_building.png",
+      "name": "modern civic building",
+      "original_position_px": {
+        "x": 54,
+        "y": 613,
+        "width": 437,
+        "height": 312
+      },
+      "crop_with_padding_px": {
+        "x": 42,
+        "y": 601,
+        "width": 461,
+        "height": 336
+      }
+    },
+    {
+      "file": "06_manatee_county_government_building.png",
+      "name": "manatee county government building",
+      "original_position_px": {
+        "x": 1385,
+        "y": 699,
+        "width": 577,
+        "height": 291
+      },
+      "crop_with_padding_px": {
+        "x": 1373,
+        "y": 687,
+        "width": 601,
+        "height": 315
+      }
+    },
+    {
+      "file": "07_library.png",
+      "name": "library",
+      "original_position_px": {
+        "x": 424,
+        "y": 1005,
+        "width": 419,
+        "height": 162
+      },
+      "crop_with_padding_px": {
+        "x": 412,
+        "y": 993,
+        "width": 443,
+        "height": 186
+      }
+    },
+    {
+      "file": "08_property_appraiser_building.png",
+      "name": "property appraiser building",
+      "original_position_px": {
+        "x": 1017,
+        "y": 1083,
+        "width": 524,
+        "height": 182
+      },
+      "crop_with_padding_px": {
+        "x": 1005,
+        "y": 1071,
+        "width": 548,
+        "height": 206
+      }
+    },
+    {
+      "file": "09_water_pipe.png",
+      "name": "water pipe",
+      "original_position_px": {
+        "x": 1516,
+        "y": 1245,
+        "width": 468,
+        "height": 168
+      },
+      "crop_with_padding_px": {
+        "x": 1504,
+        "y": 1233,
+        "width": 492,
+        "height": 192
+      }
+    },
+    {
+      "file": "10_humane_society_building.png",
+      "name": "humane society building",
+      "original_position_px": {
+        "x": 111,
+        "y": 1267,
+        "width": 497,
+        "height": 154
+      },
+      "crop_with_padding_px": {
+        "x": 99,
+        "y": 1255,
+        "width": 521,
+        "height": 178
+      }
+    },
+    {
+      "file": "11_crown_overlay.png",
+      "name": "crown overlay",
+      "original_position_px": {
+        "x": 868,
+        "y": 1324,
+        "width": 218,
+        "height": 176
+      },
+      "crop_with_padding_px": {
+        "x": 856,
+        "y": 1312,
+        "width": 242,
+        "height": 200
+      }
+    }
+  ]
+}

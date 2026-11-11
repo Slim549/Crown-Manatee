@@ -1,0 +1,88 @@
+// End-to-end check against a server this script spawns. Run: npm test
+const {spawn}=require('child_process'),assert=require('assert'),NODES=require('../config/nodes'),QB=require('../config/questionBank').load();
+const PORT=3199,B='http://localhost:'+PORT;
+const P=(a,d)=>fetch(B+'/api/'+a,{method:'POST',body:JSON.stringify(d)}).then(async r=>({s:r.status,j:await r.json()}));
+async function watch(q){ const r=await fetch(B+'/events?'+q), rd=r.body.getReader(), o={last:null}; (async()=>{let buf='';for(;;){const {value,done}=await rd.read();if(done)break;buf+=Buffer.from(value).toString();let i;while((i=buf.indexOf('\n\n'))>=0){const m=buf.slice(0,i);buf=buf.slice(i+2);if(m.startsWith('data: '))o.last=JSON.parse(m.slice(6));}}})().catch(()=>{});return o;}
+const wait=ms=>new Promise(r=>setTimeout(r,ms));
+(async()=>{ const srv=spawn('node',['server.js'],{env:{...process.env,PORT},cwd:__dirname+'/..',stdio:'ignore'}); await wait(700);
+ try{
+  assert(!QB.report.length,'question bank validates');
+  assert(!JSON.stringify(QB.bank).includes('PLACEHOLDER'),'real questions are loaded');
+  const {j:h}=await P('create',{gameMinutes:20}); const code=h.code,key=h.hostKey, H=(a,v)=>P(a,{code,key,value:v});
+  assert((await P('join',{code:'ZZZZ',name:'x'})).s===404,'invalid code rejected');
+  const {blocked}=require('../config/nameFilter');
+  assert(blocked('f.u.c.k')&&blocked('sh1t')&&blocked('a$$')&&!blocked('Cassidy')&&!blocked('Michelle')&&!blocked('Class'),'name filter');
+  assert((await P('join',{code,name:'fuuuuck'})).s===400,'inappropriate name rejected');
+  const names=['Ana','Ben','Cy']; const pl=[]; for(const n of names){const r=await P('join',{code,name:n});pl.push(r.j.pid);}
+  assert((await P('join',{code,name:'ana'})).s===400,'duplicate name rejected');
+  assert((await P('join',{code,name:'Ana',pid:pl[0]})).j.pid===pl[0],'reconnect keeps identity');
+  const host=await watch(`code=${code}&role=host&key=${key}`), ws=[]; for(const p of pl)ws.push(await watch(`code=${code}&role=player&pid=${p}`)); await wait(200);
+  assert((await H('settings',{requiredPerNode:1,questionSeconds:30})).s===200);
+  assert((await H('openSelection')).s===200,'selection opens with 3 players');
+  assert((await P('select',{code,pid:pl[0],nodes:['sheriff','library']})).s===400,'must pick exactly 3');
+  const picks=[['sheriff','library','elections'],['sheriff','library','gt-bray'],['sheriff','public-works','animal-welfare']];
+  for(let i=0;i<3;i++)assert((await P('select',{code,pid:pl[i],nodes:picks[i]})).s===200);
+  await H('lock'); await wait(100); assert(host.last.phase==='locked');
+  assert(ws[0].last.players.find(p=>p.id===pl[1]).nodes===undefined,'players cannot see others\' picks');
+  const order=NODES.map(n=>n.id);
+  const pathOf=nodes=>order.filter(id=>nodes.includes(id));
+  await H('start'); await wait(200);
+  assert(host.last.phase==='playing');
+  pl.forEach((p,i)=>{
+    const mine=ws[i].last;
+    assert(mine.me.currentNode===pathOf(picks[i])[0],'player starts at their first building');
+    assert(mine.question&&!JSON.stringify(mine.question).includes('correctAnswer'),'no answer leak before they submit');
+    assert(mine.question.number===1&&mine.question.required===1);
+  });
+  const anaQ=ws[0].last.question, benQ=ws[1].last.question;
+  assert(anaQ.id!==benQ.id,'players are not held on the same question');
+  const keyFor=(nodeId,q)=>{ const src=QB.bank[nodeId].find(x=>x.id===q.id); const text=src.choices[src.correctAnswer]; return Object.entries(q.choices).find(([,v])=>v===text)[0]; };
+  const anaKey=keyFor(ws[0].last.me.currentNode, anaQ);
+  const benKey=keyFor(ws[1].last.me.currentNode, benQ);
+  assert(new Set(Object.values(anaQ.choices)).size===4,'choices stay four distinct answers');
+  assert((await P('answer',{code,pid:pl[0],qid:anaQ.id,choice:anaKey})).s===200);
+  await wait(120);
+  assert(ws[0].last.me.mode==='result'&&ws[0].last.question.correctAnswer===anaKey,'Ana sees her result immediately');
+  assert(ws[1].last.me.mode==='question'&&!ws[1].last.question.correctAnswer,'Ben is not waiting on Ana');
+  assert((await P('answer',{code,pid:pl[0],qid:anaQ.id,choice:'A'})).s===409,'duplicate blocked');
+  assert((await P('advance',{code,pid:pl[0]})).s===200);
+  await wait(80);
+  assert(ws[0].last.me.mode==='choice','after the required questions Ana can crown or move on');
+  assert(ws[1].last.question.id===benQ.id,'Ben is still on his own question');
+  assert((await P('move',{code,pid:pl[0]})).s===200);
+  await wait(80);
+  assert(ws[0].last.me.currentNode===pathOf(picks[0])[1],'moving on goes to the next selected building');
+  const wrong='ABCD'.replace(benKey,'')[0];
+  assert((await P('answer',{code,pid:pl[1],qid:benQ.id,choice:wrong})).s===200);
+  await wait(80);
+  assert(ws[1].last.question.outcome==='incorrect');
+  await wait(2300);
+  assert(ws[1].last.me.mode==='result'&&ws[1].last.question.id===benQ.id,'a wrong answer stays until Next');
+  async function finishNode(pid, sock){
+    const q=sock.last.question, key=keyFor(sock.last.me.currentNode, q);
+    assert((await P('answer',{code,pid,qid:q.id,choice:key})).s===200);
+    assert((await P('advance',{code,pid})).s===200);
+    await wait(40);
+    assert(sock.last.me.mode==='choice');
+    assert((await P('move',{code,pid})).s===200);
+    await wait(40);
+  }
+  await finishNode(pl[0], ws[0]);
+  assert(ws[0].last.me.currentNode===pathOf(picks[0])[2],'Ana reaches her last building');
+  await finishNode(pl[0], ws[0]);
+  assert(ws[0].last.me.mode==='done'&&ws[0].last.phase==='playing','finishing the path stays in the game');
+  assert(ws[0].last.me.buildings.length===3&&ws[0].last.me.buildings.every(b=>b.left>0),'each building still has questions');
+  assert((await P('revisit',{code,pid:pl[0],node:'judicial-center'})).s===400,'only her own buildings');
+  const first=pathOf(picks[0])[0];
+  assert((await P('revisit',{code,pid:pl[0],node:first})).s===200);
+  await wait(40);
+  assert(ws[0].last.me.mode==='question'&&ws[0].last.me.currentNode===first&&ws[0].last.question.bonus,'she can answer more for the crown');
+  await H('end'); await wait(120);
+  assert(host.last.phase==='final');
+  const R=host.last.results, byNode=Object.fromEntries(R.nodes.map(n=>[n.id,n]));
+  assert(byNode.elections.winners.length===1&&byNode.elections.winners[0]===pl[0],'building winner computed');
+  assert(byNode.sheriff.winners[0]===pl[0]&&byNode.library.winners[0]===pl[0],'one player can crown more than one building');
+  assert(byNode['judicial-center'].unclaimed,'unclaimed building flagged');
+  assert(R.overall[0]===pl[0]&&R.rows[0].accuracy>0);
+  console.log('ALL CHECKS PASSED. Final:',R.rows.map(r=>`${r.rank}.${r.name} ${r.correct}/${r.asked}`).join(' | '));
+ }catch(e){console.error('FAIL',e);process.exitCode=1;} srv.kill(); })();

@@ -1,0 +1,2 @@
+{ "name": "manatee-county-game", "version": "0.1.0", "private": true,
+  "scripts": { "start": "node server.js", "sample": "node scripts/makeSample.js", "validate": "node scripts/validate.js", "test": "node scripts/smoke.js", "assets": "python scripts/process_assets.py" } }
