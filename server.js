@@ -5,6 +5,12 @@ const {blocked,displayName}=require('./config/nameFilter');
 if(QB.report.length) console.warn('[question bank:'+QB.file+']\n  '+QB.report.slice(0,15).join('\n  ')+(QB.report.length>15?`\n  ...+${QB.report.length-15} more`:''));
 const sessions=new Map(), rid=n=>crypto.randomBytes(n).toString('hex');
 const shuffle=a=>{a=[...a];for(let i=a.length-1;i>0;i--){const j=Math.random()*(i+1)|0;[a[i],a[j]]=[a[j],a[i]];}return a;};
+function queueFor(nodeId){
+  const all=QB.bank[nodeId]||[];
+  const ranked=['easy','medium','hard'].flatMap(level=>shuffle(all.filter(q=>q.difficulty===level)));
+  const used=new Set(ranked.map(q=>q.id));
+  return ranked.concat(all.filter(q=>!used.has(q.id)));
+}
 const now=()=>Date.now();
 
 function blankRun(){ return {building:0,runs:{},revisiting:false,queue:[],qi:0,continuing:false,mode:'wait',q:null,choice:null,outcome:null,deadline:0,resultUntil:0,choiceUntil:0,current:null,number:0}; }
@@ -47,7 +53,7 @@ function enterNode(s,p,nodeId){
     p.qi=Math.min(saved.qi,p.queue.length);
     p.continuing=p.qi>=s.settings.requiredPerNode||!!saved.continuing;
   } else {
-    p.queue=shuffle(QB.bank[nodeId]||[]).slice(0,Math.min(30,s.settings.maxQuestions||30));
+    p.queue=queueFor(nodeId);
     p.qi=0; p.continuing=false;
   }
   p.choice=null; p.outcome=null;

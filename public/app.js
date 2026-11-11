@@ -4,7 +4,7 @@ import { FamiliaritySelection } from './ui/selection.js';
 import { PlayerQuestion } from './ui/question.js';
 import { FinalScoreboard } from './ui/scoreboard.js';
 import { HostBoard } from './ui/board.js';
-import { buildingSrc } from './assets.js';
+import { CROWN, buildingSrc } from './assets.js';
 
 const app = $('#app');
 const route = location.pathname.startsWith('/host') ? 'host' : location.pathname.startsWith('/play') ? 'play' : 'home';
@@ -13,9 +13,10 @@ let S = null;
 let offset = 0;
 let es = null;
 let prev = null;
+let hosting = false;
 
-function shell({ kicker = 'Manatee County Government Game', title, body = '', extra = '' }) {
-  return `<main class="entry"><section class="entry-card"><p class="kicker">${kicker}</p><h1>${title}</h1>${body ? `<div class="wait-body">${body}</div>` : ''}${extra}</section></main>`;
+function shell({ title, body = '', extra = '' }) {
+  return `<main class="entry"><section class="entry-card"><h1>${title}</h1>${body ? `<div class="wait-body">${body}</div>` : ''}${extra}</section></main>`;
 }
 
 function toastError(message) { toast(message); }
@@ -27,19 +28,39 @@ function left() {
   return Math.max(0, S.deadline - (Date.now() + offset));
 }
 
+addEventListener('pointerdown', () => {
+  if (hosting && S?.phase === 'playing') audio.loop('hostMusic');
+});
+
 function sound(before, next) {
-  const music = () => {
-    if (next.phase === 'lobby' || next.phase === 'select' || next.phase === 'locked') audio.loop('introMusic');
-    else if (next.phase === 'final') audio.stopLoop();
-    else audio.loop('gameMusic');
-  };
-  if (!before) { music(); return; }
+  if (hosting && next.phase === 'playing') audio.loop('hostMusic');
+  else if (hosting) audio.stopLoop();
+  if (!before) return;
   if (before.activeNode !== next.activeNode && next.activeNode) audio.play('buildingActive');
   if (before.phase !== next.phase) {
     if (next.phase === 'reveal') audio.play('roundComplete');
-    if (next.phase === 'final') audio.play('celebration');
-    music();
+    if (next.phase === 'final' && hosting) audio.play('victory');
   }
+}
+
+function crownsHeld() {
+  if (!S?.me || !S.nodeScores || !['playing', 'final'].includes(S.phase)) return [];
+  return (S.nodes || []).filter((node) => {
+    const scores = S.nodeScores[node.id] || {};
+    const mine = scores[S.me.id] || 0;
+    if (mine <= 0) return false;
+    return mine === Math.max(0, ...Object.values(scores));
+  });
+}
+
+function crownNotice(crowns) {
+  if (!crowns.length) return '';
+  const names = crowns.map((node) => node.name);
+  const list = names.length === 1 ? names[0] : names.length === 2
+    ? `${names[0]} and ${names[1]}`
+    : `${names.slice(0, -1).join(', ')}, and ${names[names.length - 1]}`;
+  const word = crowns.length === 1 ? 'crown' : 'crowns';
+  return `<p class="crown-note" role="status"><img src="${CROWN}" alt="">You have the current ${word} for ${esc(list)}.</p>`;
 }
 
 function connect(query, onState) {
@@ -93,6 +114,8 @@ function rememberHost(host) {
 }
 
 function forgetHost() {
+  hosting = false;
+  audio.stopLoop();
   es?.close();
   es = null;
   S = null;
@@ -102,15 +125,18 @@ function forgetHost() {
 }
 
 function showHome() {
+  hosting = false;
+  audio.stopLoop();
   localStorage.removeItem('mcg-host');
   app.innerHTML = `<main class="entry">
-    <section class="entry-card">
-      <p class="kicker">Manatee County</p>
-      <h1>Government Game</h1>
-      <p class="lede">One shared board for the room. Each student answers on their own device.</p>
-      <div class="actions">
-        <button type="button" class="btn primary" id="choose-host">Host a game</button>
-        <button type="button" class="btn" id="choose-join">Join a game</button>
+    <section class="home-card">
+      <p class="home-banner">Manatee County</p>
+      <img class="home-crown" src="${CROWN}" alt="">
+      <h1>Crown Manatee</h1>
+      <div class="home-rule" aria-hidden="true"></div>
+      <div class="home-actions">
+        <button type="button" class="home-host" id="choose-host">Host a Game</button>
+        <button type="button" class="home-join" id="choose-join">Join a Game</button>
       </div>
     </section>
   </main>`;
@@ -121,9 +147,7 @@ function showHome() {
 function showHostSetup() {
   app.innerHTML = `<main class="entry">
     <section class="entry-card">
-      <p class="kicker">Host</p>
       <h1>How long should the game run?</h1>
-      <p class="lede">Everyone answers at their own pace. Each building starts with 5 questions, then a player can keep going to crown it or move on.</p>
       <div class="time-choices" role="group" aria-label="Game length">${TIMES.map((minutes) => `<button type="button" class="btn${minutes === 20 ? ' primary' : ''}" data-time="${minutes}" aria-pressed="${minutes === 20}">${minutes} min</button>`).join('')}</div>
       <div class="actions">
         <button type="button" class="btn primary" id="create-game">Continue</button>
@@ -153,6 +177,7 @@ function showHostSetup() {
 }
 
 function hostSession(H) {
+  hosting = true;
   let board = null;
   let view = '';
   let starting = false;
@@ -165,9 +190,7 @@ function hostSession(H) {
     const connected = S.players.filter((player) => player.connected);
     const ready = connected.length >= S.minPlayers;
     const markup = `<main class="entry"><section class="entry-card">
-      <p class="kicker">Game code</p>
       <h1 class="join-code">${esc(S.code)}</h1>
-      <p class="lede">Open this same address in another window and choose <strong>Join a game</strong>. Enter code <strong>${esc(S.code)}</strong>.</p>
       <p class="roster-label">${S.players.length ? S.players.length + ' joined' : 'Waiting for players'}</p>
       <ul class="code-roster">${S.players.map((player) => `<li><span class="presence ${player.connected ? 'is-on' : ''}"></span>${esc(player.name)}</li>`).join('') || '<li>No one yet</li>'}</ul>
       <div class="actions"><button type="button" class="btn primary" id="begin" ${ready ? '' : 'disabled'}>Begin</button><button type="button" class="btn" id="leave-host">Leave</button></div>
@@ -200,7 +223,10 @@ function hostSession(H) {
       if (player.picked) return 'Ready';
       return player.connected ? 'Joined' : 'Offline';
     };
+    const ready = S.players.filter((player) => player.picked).length;
+    const status = S.phase === 'select' ? `${ready} of ${S.players.length} ready` : S.phase === 'locked' ? 'Selections locked' : '';
     el.innerHTML = `<h2>Leaderboard</h2>
+      ${status ? `<p class="lb-status">${status}</p>` : ''}
       ${S.phase === 'playing' ? `<p class="lb-clock"><time data-timer>${clockText()}</time></p>` : ''}
       <ol class="lb-list">${rows.map((player, index) => `<li>
         <span class="lb-rank">${index + 1}</span>
@@ -285,8 +311,7 @@ function player(options = {}) {
   function drawJoin(error = '') {
     viewKey = 'join';
     app.innerHTML = `<main class="entry"><form class="entry-card" id="join">
-      <p class="kicker">Player</p>
-      <h1>Join the game</h1>
+      <h1>Join</h1>
       <label for="code">Join code</label>
       <input id="code" name="code" maxlength="4" autocomplete="off" spellcheck="false" value="${esc(params.get('code') || '')}" required>
       <label for="name">Display name</label>
@@ -322,7 +347,7 @@ function player(options = {}) {
       layer = document.createElement('div');
       layer.id = 'player-map';
       layer.className = 'player-map';
-      layer.innerHTML = '<div class="player-map-bar"><p>Who is at each building</p><button type="button" class="btn" id="close-map">Close</button></div><div class="player-map-stage" id="player-map-stage"></div>';
+      layer.innerHTML = '<div class="player-map-bar"><p>Map</p><button type="button" class="btn" id="close-map">Close</button></div><div class="player-map-stage" id="player-map-stage"></div>';
       document.body.appendChild(layer);
       mapBoard = HostBoard($('#player-map-stage'));
       $('#close-map').onclick = closeMap;
@@ -340,8 +365,7 @@ function player(options = {}) {
         picks = null;
         choice = null;
         app.innerHTML = shell({
-          title: 'You’re in.',
-          body: 'Keep this page open. The host will ask you to choose three areas of local government.',
+          title: 'Waiting for the host',
           extra: '<div class="actions"><button type="button" class="btn" id="leave-player">Leave</button></div>',
         });
         $('#leave-player').onclick = () => {
@@ -373,21 +397,21 @@ function player(options = {}) {
         app.innerHTML = shell({
           title: 'Selections are locked',
           body: mine.length
-            ? 'You will compete for:<br>' + mine.map((id) => esc(META.nodes.find((node) => node.id === id).name)).join('<br>')
-            : 'You did not confirm three areas, so you will sit this game out.',
+            ? mine.map((id) => esc(META.nodes.find((node) => node.id === id).name)).join('<br>')
+            : 'You did not pick three areas.',
         });
       }
       return;
     }
     if (phase === 'playing' && S.me?.mode === 'choice') {
       const node = META.nodes.find((item) => item.id === S.me.currentNode);
-      const key = 'choice:' + (node?.id || '');
+      const held = crownsHeld();
+      const key = 'choice:' + (node?.id || '') + ':' + held.map((item) => item.id).join();
       if (viewKey !== key) {
         viewKey = key;
         app.innerHTML = `<main class="entry"><section class="entry-card">
-          <p class="kicker">${esc(node?.name || 'This building')}</p>
-          <h1>Crown it, or move on?</h1>
-          <p class="lede">You finished the ${S.me.required} required questions. Keep answering here to take the crown, or leave your score and go to your next building.</p>
+          ${crownNotice(held)}
+          <h1>${esc(node?.name || 'This building')}</h1>
           <div class="actions"><button type="button" class="btn primary" id="keep-going">Keep going</button><button type="button" class="btn" id="move-on">Move on</button><button type="button" class="btn" id="see-map">See Map</button></div>
         </section></main>`;
       }
@@ -395,13 +419,13 @@ function player(options = {}) {
     }
     if (phase === 'playing' && S.me?.mode === 'done') {
       const buildings = S.me.buildings || [];
-      const key = 'done:' + buildings.map((item) => [item.id, item.left, item.correct].join('.')).join();
+      const held = crownsHeld();
+      const key = 'done:' + buildings.map((item) => [item.id, item.left, item.correct].join('.')).join() + ':' + held.map((item) => item.id).join();
       if (viewKey !== key) {
         viewKey = key;
         app.innerHTML = `<main class="entry"><section class="entry-card return-card">
-          <p class="kicker">Keep competing</p>
+          ${crownNotice(held)}
           <h1>Your buildings</h1>
-          <p class="lede">You have been through each stop. Open one to answer more questions and compete for its crown.</p>
           <ul class="return-list">${buildings.map((item) => {
             const node = META.nodes.find((entry) => entry.id === item.id);
             const open = item.left > 0;
@@ -426,11 +450,12 @@ function player(options = {}) {
     if (S.question && S.me?.currentNode) {
       const Q = S.question;
       if (choice && viewKey && !viewKey.includes(Q.id)) choice = null;
-      const key = ['q', Q.id, S.me.mode, Q.myChoice || '', Q.outcome || '', Q.correctAnswer || '', choice || ''].join(':');
+      const held = crownsHeld();
+      const key = ['q', Q.id, S.me.mode, Q.myChoice || '', Q.outcome || '', Q.correctAnswer || '', choice || '', held.map((item) => item.id).join()].join(':');
       if (viewKey !== key) {
         viewKey = key;
         const node = META.nodes.find((item) => item.id === S.me.currentNode);
-        app.innerHTML = PlayerQuestion({ node, question: Q, phase: S.me.mode, choice });
+        app.innerHTML = PlayerQuestion({ node, question: Q, phase: S.me.mode, choice, crowns: held });
       }
       if (S.me.mode === 'result' && Q.outcome && lastSound !== Q.id + Q.outcome) {
         lastSound = Q.id + Q.outcome;
@@ -443,10 +468,7 @@ function player(options = {}) {
     if (viewKey !== key) {
       viewKey = key;
       app.innerHTML = shell({
-        title: mine.length ? 'Get ready' : 'You’re sitting this one out',
-        body: mine.length
-          ? 'The game is starting. Your questions will show up here, and you will not have to wait for anyone else.'
-          : 'You did not confirm three areas, so you will sit this game out.',
+        title: mine.length ? 'Get ready' : 'Sitting this one out',
       });
     }
   }
@@ -480,9 +502,7 @@ function player(options = {}) {
     }
     if (event.target.id === 'confirm-picks') {
       if (picks.size !== S.picks) return;
-      const saved = await post('select', { code: me.code, pid: me.pid, nodes: [...picks] });
-      if (saved) toast('Saved. You can still change this until the host locks.');
-      return;
+      await post('select', { code: me.code, pid: me.pid, nodes: [...picks] });
     }
     const choiceBtn = event.target.closest('.choice');
     if (choiceBtn && S.me?.mode === 'question' && S.question && !S.question.myChoice) {

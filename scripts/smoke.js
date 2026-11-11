@@ -33,6 +33,7 @@ const wait=ms=>new Promise(r=>setTimeout(r,ms));
     assert(mine.me.currentNode===pathOf(picks[i])[0],'player starts at their first building');
     assert(mine.question&&!JSON.stringify(mine.question).includes('correctAnswer'),'no answer leak before they submit');
     assert(mine.question.number===1&&mine.question.required===1);
+    assert(mine.question.id.startsWith(mine.me.currentNode+'-easy-'),'questions stay in that building and start easy');
   });
   const anaQ=ws[0].last.question, benQ=ws[1].last.question;
   assert(anaQ.id!==benQ.id,'players are not held on the same question');

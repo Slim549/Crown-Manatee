@@ -32,6 +32,7 @@ export function buildingSrc(id) {
 }
 
 export const AUDIO = {
+  hostMusic: '/assets/audio/host-game.mp3',
   introMusic: '/assets/audio/intro.mp3',
   gameMusic: '/assets/audio/game.mp3',
   tick: '/assets/audio/tick.mp3',
@@ -41,7 +42,8 @@ export const AUDIO = {
   incorrect: '/assets/audio/incorrect.mp3',
   buildingActive: '/assets/audio/building.mp3',
   tagMove: '/assets/audio/move.mp3',
-  crown: '/assets/audio/crown.mp3',
+  crown: '/assets/audio/crown-ding.mp3',
   roundComplete: '/assets/audio/round.mp3',
   celebration: '/assets/audio/win.mp3',
+  victory: '/assets/audio/victory.mp3',
 };

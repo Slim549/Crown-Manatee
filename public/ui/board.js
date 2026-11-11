@@ -197,7 +197,8 @@ export function HostBoard(stage) {
     if (moved) audio.play('tagMove');
   }
 
-  function syncCrowns(state) {
+  let crownsReady = false;
+  function syncCrowns(state, host) {
     const marks = buildingLeaders(state);
     const seen = new Set();
     const prev = new Set([...board.querySelectorAll('.crown')].map((el) => el.id));
@@ -226,17 +227,14 @@ export function HostBoard(stage) {
       if (!seen.has(el.id.slice(2))) el.remove();
     });
     const changed = seen.size !== prev.size || [...seen].some((id) => !prev.has('c-' + id));
-    if (changed && seen.size) audio.play('crown');
+    if (crownsReady && host && changed) audio.play('crown');
+    crownsReady = true;
   }
 
   function banner(state) {
     const el = board.querySelector('#board-banner');
     let text = '';
     if (state.paused) text = 'Paused';
-    else if (state.phase === 'select') {
-      const ready = state.players.filter((player) => player.picked).length;
-      text = `Choosing areas · ${ready} of ${state.players.length} ready`;
-    } else if (state.phase === 'locked') text = 'Selections locked';
     el.hidden = !text;
     if (el.textContent !== text) el.textContent = text;
   }
@@ -247,9 +245,7 @@ export function HostBoard(stage) {
     if (state.phase === 'lobby') {
       const roster = state.players.map((player) => `<li><span class="presence ${player.connected ? 'is-on' : ''}"></span>${esc(player.name)}<em>${player.connected ? 'Connected' : 'Offline'}</em></li>`).join('');
       html = `<section class="modal modal-lobby">
-        <p class="kicker">Join on your own device</p>
-        <h1>Manatee County Government Game</h1>
-        <p class="modal-lead">Open <strong>${esc(location.host)}/play</strong> and enter this code.</p>
+        <h1>Crown Manatee</h1>
         <p class="join-code" aria-label="Join code">${esc(state.code)}</p>
         <p class="roster-label">${state.players.length ? state.players.length + ' in this session' : 'Waiting for players'}</p>
         <ul class="roster">${roster}</ul>
@@ -272,7 +268,7 @@ export function HostBoard(stage) {
       syncBuildings(state);
       const located = locateAll(state);
       syncTags(located, state);
-      syncCrowns(state);
+      syncCrowns(state, host);
       banner(state);
       const showClock = host && state.phase === 'playing';
       board.querySelector('[data-timer]').hidden = !showClock;
