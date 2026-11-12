@@ -9,7 +9,7 @@ import re
 import zipfile
 from xml.etree import ElementTree as ET
 
-DOC = r"C:\Users\Blaine\Downloads\Manatee_County_Question_Bank_Fact_Checked_Revised (1).docx"
+DOC = r"C:\Users\Blaine\Downloads\Manatee_County_Question_Bank_Answer_Choices_Revised (1).docx"
 OUT = r"C:\Users\Blaine\Downloads\manatee-county-game\manatee-game\data\questions.json"
 
 NODES = [
